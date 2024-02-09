@@ -2,7 +2,7 @@ interface AuthConfig {
   clientID: string;
   domain: string;
   audience: string;
-  redirectUri: string;
+  redirectUri: string
 }
 
 export const AUTH_CONFIG: AuthConfig = {

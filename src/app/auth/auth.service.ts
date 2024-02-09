@@ -17,7 +17,7 @@ export class AuthService {
     scope: "openid profile"
   });
 // Store authentication data
-  expiresAt: number;
+  expiresAt: number = 0;
   userProfile: any;
   accessToken: string;
   authenticated: boolean;
